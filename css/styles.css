@@ -1,3 +1,10 @@
+:root{
+font-family:sans-serif ;
+font-size: 16px;
+min-width: 768px;
+}
+
+
 * { /* Serve para Margin e padding não interfirem em width e height */
     box-sizing: border-box; 
     /* Remover todas bordas de elementos selecionados */
@@ -31,3 +38,45 @@ body { background-image: url('../assets/img/bg01.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;}
+    header>div{
+        background-color: rgb(138, 255, 202);
+    }
+    header>nav{ background-color: rgb(3,74, 42);
+    }
+    header img {
+        display: block;
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 0.6rem;
+}    
+header>h1{ 
+    font-size: 1.8rem;
+}div.header{ display: flex;
+align-items: center;}
+header nav{
+    width: 100%;
+    text-transform: uppercase;
+}
+main article{
+    background-color: rgb(248,248, 248);
+    padding: 0rem 1rem;
+}
+main aside{
+    background-color: rgb(204, 255,218);
+    width: 200px;
+    padding: 0rem 1rem;
+}
+footer a{
+    font-size: 1.3rem;
+    padding: 0.5;
+}
+footer{
+    background-color: rgb(0, 64,16);
+}
+div.license{
+    color: rgb(244,255, 224);
+}
+main{
+    display: flex;
+}
+
