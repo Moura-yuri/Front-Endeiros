@@ -23,12 +23,12 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: steelblue;
+    color:black;
     text-decoration: none;
 }
 
 a:hover {
-    color: orangered;
+    color: rgb(204, 255,218);;
     text-decoration: underline;
 }
 
@@ -42,6 +42,9 @@ body { background-image: url('../assets/img/bg01.jpg');
         background-color: rgb(138, 255, 202);
     }
     header>nav{ background-color: rgb(3,74, 42);
+        height: 45px;
+        display: flex;
+        align-items: center ;
     }
     header img {
         display: block;
@@ -56,6 +59,7 @@ align-items: center;}
 header nav{
     width: 100%;
     text-transform: uppercase;
+    
 }
 main article{
     background-color: rgb(248,248, 248);
@@ -72,6 +76,9 @@ footer a{
 }
 footer{
     background-color: rgb(0, 64,16);
+    display: flex;
+    justify-content: space-between;
+
 }
 div.license{
     color: rgb(244,255, 224);
@@ -79,4 +86,9 @@ div.license{
 main{
     display: flex;
 }
+nav a{
+
+}
+
+
 
